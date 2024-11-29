@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Lexend'; 
+    src: url('Lexend.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Lexend', Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #f4f4f4;
+    background-image: url('bg.png'); 
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: -1; 
+}
+
+header {
+    background-color: #0E1225;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #1B213D;
+    padding: 1em;
+}
+
+nav a.navbar-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+section {
+    padding: 20px 25%;
+}
+
+footer {
+    background-color: #0E1225;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+a:link {
+    color: rgb(238, 215, 116); 
+    text-decoration: none; 
+}
+
+a:visited {
+    color: rgb(218, 124, 255); 
+    text-decoration: none; 
+  }
+
+.empty {
+    height: 15vh;
+}
+
+.empty2 {
+    height: 10vh;
+}
+
+.centered {
+    text-align: center;
+}
+
+#pdf > embed {
+    height: 50em;
+    width: 100%;
+}
+
+.link-button {
+    background-color: #1B213D;
+    color: #FFFFFF;
+    border: 2px solid #ad9f63;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 20em;
+}
+
+#other-buttons {
+    text-align: center;
+}
+
+hr {
+    border: 1px dashed #9da8f7;
+}
+
+h2 {
+    text-align: center;
+}
