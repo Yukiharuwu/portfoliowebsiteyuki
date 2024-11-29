@@ -83,6 +83,11 @@ a:visited {
     width: 100%;
 }
 
+#pdf > img {
+    height: 100%;
+    width: 100%;
+}
+
 .link-button {
     background-color: #1B213D;
     color: #FFFFFF;
